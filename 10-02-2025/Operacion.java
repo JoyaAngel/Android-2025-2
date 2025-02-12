@@ -3,7 +3,7 @@ class Operacion{
 	private Double x1, x2;
 	private	Operando op;
 
-	Operando(Double x1, Double x2, Operacion op){
+	Operacion(Double x1, Double x2, Operando op){
 
 		this.x1 = x1;
 		this.x2 = x2;
@@ -23,7 +23,7 @@ class Operacion{
 
 	}
 
-	public Double getOp(){
+	public Operando getOp(){
 
 		return this.op;
 

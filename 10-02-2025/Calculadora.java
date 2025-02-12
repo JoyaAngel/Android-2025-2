@@ -1,4 +1,4 @@
-class main{
+class Calculadora{
 
 	public static void main(String[] pepito){
 
