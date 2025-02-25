@@ -33,5 +33,8 @@ public class TertiaryActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        getOnBackPressedDispatcher().addCallback(this, new NonBackActivity(this));
+        
     }
 }
