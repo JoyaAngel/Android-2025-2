@@ -21,7 +21,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="60dp"
         android:id="@+id/suma"
         android:layout_below="@id/resultado"
         android:layout_alignEnd="@id/resultado"
