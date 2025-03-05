@@ -1,6 +1,8 @@
 package com.example.proyecto260225;
 
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,6 +11,8 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
+
+    CalculadoraUI ui;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,4 +25,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
+
+
+
 }
