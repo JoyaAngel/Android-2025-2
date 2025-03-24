@@ -131,7 +131,7 @@ public class CalculadoraUI implements ICalculadoraUI, View.OnClickListener{
 
     @Override
     public void addOperation(Operacion operation) {
-        txvDisplay.setText(Operacion.convert(operation);
+        txvDisplay.setText(Operacion.convert(operation));
         memoria.concat(operation);
 
     }
@@ -139,7 +139,7 @@ public class CalculadoraUI implements ICalculadoraUI, View.OnClickListener{
     @Override
     public void onClick(View v) {
         switch (v.getId()){
-            R.id.uno_button
+
         }
     }
 }
