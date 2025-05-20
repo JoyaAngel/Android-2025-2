@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">M5-01</string>
+    <string name="fibonacci_message_index">Índice seleccionado: %1$d</string>
+    <string name="fibonacci_message_iterative">Iterativo: %1$d</string>
+    <string name="fibonacci_message_recursive">Recursivo: %1$d</string>
+    <string name="fibonacci_index">Índice actual: <b>%1$d</b></string>
+    <string name="button_previous">Anterior</string>
+    <string name="button_next">Siguiente</string>
+</resources>
